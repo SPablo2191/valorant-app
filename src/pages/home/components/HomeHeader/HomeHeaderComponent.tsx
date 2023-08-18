@@ -4,7 +4,7 @@ export function HomeHeader(){
     return (
         <>
         <HomeTitle/>
-        <UiInputText/>
+        <UiInputText placeholder="Ingrese Nombre de Jugador"/>
         </>
     );
 }
