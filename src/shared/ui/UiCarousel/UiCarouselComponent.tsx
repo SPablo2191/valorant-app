@@ -18,6 +18,6 @@ export function UiCarousel({ items, itemTemplate }: { items: any[], itemTemplate
         }
     ];
     return (
-        <Carousel value={items} numVisible={3} numScroll={3} responsiveOptions={responsiveOptions} itemTemplate={itemTemplate} />
+        <Carousel value={items} numVisible={3} showIndicators={false} numScroll={3} responsiveOptions={responsiveOptions} itemTemplate={itemTemplate} />
     );
 }

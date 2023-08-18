@@ -1,8 +1,8 @@
 import { Event } from "../../models/event.interface";
 
-export function EventCard({event} : {event : Event}) {
+export function EventCard({ event }: { event: Event }) {
     return (
-        <div className="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+        <div className="bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5  mx-4 hover:bg-red-600 hover:p-12  my-8 shadow-2xl">
             <div>
                 <span className="text-white font-bold inline-flex items-center justify-center p-2 bg-red-500 rounded-md shadow-lg">
                     <h2 >{event.shortDisplayName}</h2>
@@ -10,7 +10,7 @@ export function EventCard({event} : {event : Event}) {
             </div>
             <h3 className="text-slate-900 dark:text-white mt-5 text-2xl tracking-tight">{event.displayName}</h3>
             <p className="text-slate-500 dark:text-slate-400 mt-2 text-sm">
-                
+
             </p>
         </div>
     );
