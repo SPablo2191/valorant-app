@@ -1,7 +1,7 @@
-import { HomeTitle } from "./components/HomeTitle/HomeTitleComponent";
+import { HomeHeader } from "./components/HomeHeader/HomeHeaderComponent";
 
 export function HomePage(){
     return (<>
-    <HomeTitle/>
+    <HomeHeader/>
     </>);
 }
