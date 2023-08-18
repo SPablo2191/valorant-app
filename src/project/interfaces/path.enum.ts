@@ -1,3 +1,20 @@
 export enum pathnameEnum{
   events = 'v1/events',
+  agents = 'v1/agents',
+  buddies = 'v1/buddies',
+  bundles = 'v1/bundles',
+  ceremonies = 'v1/ceremonies',
+  competitiveTiers = 'v1/competitivetiers',
+  contentTiers = 'v1/contenttiers',
+  contract = 'v1/contracts',
+  currency = 'v1/currencies',
+  gamemodes = 'v1/gamemodes',
+  gear = 'v1/gear',
+  levelBorders = 'v1/levelborders',
+  maps = 'v1/maps',
+  playerCards = 'v1/playercards',
+  playerTitles = 'v1/playertitles',
+  seasons = 'v1/seasons',
+  sprays = 'v1/sprays',
+  weapons = 'v1/weapons'
 }
