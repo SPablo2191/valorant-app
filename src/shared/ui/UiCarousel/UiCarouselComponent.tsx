@@ -1,5 +1,5 @@
 import { Carousel, CarouselResponsiveOption } from 'primereact/carousel';
-export function CarouselEvent({ items, itemTemplate }: { items: any[], itemTemplate: any }) {
+export function UiCarousel({ items, itemTemplate }: { items: any[], itemTemplate: any }) {
     const responsiveOptions: CarouselResponsiveOption[] = [
         {
             breakpoint: '1199px',
