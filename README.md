@@ -1,27 +1,26 @@
-# React + TypeScript + Vite
+# Valorant App
+## Introducción:
+Bievenido a  la aplicación de Valorant basada en la [Valorant API](https://valorant-api.com/).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tabla de contenidos:
 
-Currently, two official plugins are available:
+- [Autor](#autor👀)
+- [Tecnologias](#tecnologias-👨‍💻)
+- [Entornos Compatibles](#entornos-compatibles-💻)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Autor👀
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Pablo Sandoval](https://github.com/SPablo2191)
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias 👨‍💻
+![React](https://img.shields.io/badge/React-18.0.2-blue.svg)
+![Vite](https://img.shields.io/badge/Vite-4.4.9-green.svg)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Entornos Compatibles
+![Linux](https://img.shields.io/badge/Linux-compatible-green)
+![Windows](https://img.shields.io/badge/Windows-compatible-green)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
