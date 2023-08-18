@@ -1,7 +1,7 @@
 import { HomeHeader } from "./components/HomeHeader/HomeHeaderComponent";
 
-export function HomePage(){
+export function HomePage() {
     return (<>
-    <HomeHeader/>
+        <HomeHeader />
     </>);
 }
