@@ -1,0 +1,6 @@
+.p-menuitem:hover{
+    background-color: transparent;
+}
+.p-menuitem-icon{
+    color:red;
+}
