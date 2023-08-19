@@ -1,8 +1,9 @@
 import { Event } from "../../models/event.interface";
+import './EventCardStyle.css';
 
 export function EventCard({ event }: { event: Event }) {
     return (
-        <div className="bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5  mx-4 hover:bg-red-600 hover:p-12  my-8 shadow-2xl">
+        <div className="bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5  mx-4 hover:bg-red-600 grow-on-hover  my-8 shadow-2xl">
             <div>
                 <span className="text-white font-bold inline-flex items-center justify-center p-2 bg-red-500 rounded-md shadow-lg">
                     <h2 >{event.shortDisplayName}</h2>
