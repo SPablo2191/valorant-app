@@ -1,12 +1,12 @@
 import { UiFooter } from "../../shared/ui/UiFooter/UiFooterComponent";
 import { UiNavbar } from "../../shared/ui/UiNavbar/UiNavBarComponent";
-
-export function MainLayout({ children }: any){
+import { Outlet } from "react-router-dom"
+export function MainLayout() {
     return (
         <>
-        <UiNavbar/>
-        <main>{children}</main>
-        <UiFooter/>
+            <UiNavbar />
+            <Outlet />
+            <UiFooter />
         </>
     );
 }
