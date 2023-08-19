@@ -1,9 +1,10 @@
+import './UiCarouselStyle.css'
 import { Carousel, CarouselResponsiveOption } from 'primereact/carousel';
 export function UiCarousel({ items, itemTemplate }: { items: any[], itemTemplate: any }) {
     const responsiveOptions: CarouselResponsiveOption[] = [
         {
             breakpoint: '1199px',
-            numVisible: 1,
+            numVisible: 3,
             numScroll: 1
         },
         {
