@@ -1,3 +1,4 @@
+import { UiFooter } from "../../shared/ui/UiFooter/UiFooterComponent";
 import { UiNavbar } from "../../shared/ui/UiNavbar/UiNavBarComponent";
 
 export function MainLayout({ children }: any){
@@ -5,6 +6,7 @@ export function MainLayout({ children }: any){
         <>
         <UiNavbar/>
         <main>{children}</main>
+        <UiFooter/>
         </>
     );
 }
