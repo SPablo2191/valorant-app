@@ -10,6 +10,7 @@ export function UiNavbar() {
         {
             icon: 'pi pi-bars',
             command(event) {
+                console.log(event);
                 setVisible(true);
             },
         }
