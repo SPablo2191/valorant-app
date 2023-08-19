@@ -5,7 +5,9 @@ export function MainLayout() {
     return (
         <>
             <UiNavbar />
-            <Outlet />
+            <div className="mt-2">
+                <Outlet />
+            </div>
             <UiFooter />
         </>
     );
