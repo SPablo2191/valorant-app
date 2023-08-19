@@ -1,7 +1,6 @@
 .grow-on-hover {
     transition: padding 0.3s ease;
   }
-  
   .grow-on-hover:hover {
     padding: 3rem;
   }
