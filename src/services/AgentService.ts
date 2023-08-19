@@ -1,6 +1,6 @@
 import { DataAgent } from "../models/agent.interface";
 import { pathnameEnum } from "../project/interfaces/path.enum";
-const apiUrl : string = import.meta.env['VITE_API_URL']+pathnameEnum.agents;
+const apiUrl : string = import.meta.env['VITE_API_URL']+pathnameEnum.agents+`?isPlayableCharacter=${true}`;
 
 export async function getAgents(): Promise<DataAgent> {
     try {

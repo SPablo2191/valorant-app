@@ -24,7 +24,7 @@ export function UiNavbar() {
         <Sidebar visible={visible} onHide={() => setVisible(false)} className='text-white dark:bg-slate-800 border-transparent'>
             <h2 className='text-slate-800 dark:text-white font-bold text-2xl mb-4'>Conoce acerca de...</h2>
             <ul>
-                {routes.map((route) => (<li className='my-2'><Anchor to={route.path} key={route.id} className='text-slate-800 dark:text-white text-lg hover:text-red-600 ' onClick={() => setVisible(false)}>{route.name}</Anchor></li>))}
+                {routes.map((route) => (<li className='my-2' key={route.id}><Anchor to={route.path}  className='text-slate-800 dark:text-white text-lg hover:text-red-600 ' onClick={() => setVisible(false)}>{route.name}</Anchor></li>))}
             </ul>
 
 

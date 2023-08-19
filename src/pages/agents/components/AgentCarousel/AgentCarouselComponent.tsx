@@ -20,7 +20,7 @@ export function AgentCarousel() {
         );
     };
     return (
-        <div className="md:mt-12">
+        <div className="mb-4">
             <div>
                 <UiCarousel items={data} itemTemplate={itemTemplate} />
             </div>
