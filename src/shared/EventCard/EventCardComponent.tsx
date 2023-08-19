@@ -9,7 +9,7 @@ export function EventCard({ event }: { event: Event }) {
                     <h2>{event.shortDisplayName}</h2>
                 </span>
             </div>
-            <h3 className="text-slate-900 dark:text-white  mt-5 text-2xl tracking-tight">{event.displayName}</h3>
+            <h3 className="text-slate-800 dark:text-white  mt-5 text-2xl tracking-tight">{event.displayName}</h3>
             <p className="text-slate-500 dark:text-slate-400 mt-2 text-sm">
 
             </p>

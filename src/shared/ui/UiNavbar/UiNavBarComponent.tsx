@@ -1,7 +1,7 @@
-
+import { useState } from 'react';
+import { Link as Anchor } from "react-router-dom"
 import { Menubar } from 'primereact/menubar';
 import { MenuItem } from 'primereact/menuitem';
-import { useState } from 'react';
 import { Sidebar } from 'primereact/sidebar';
 
 export function UiNavbar() {
@@ -15,9 +15,19 @@ export function UiNavbar() {
             },
         }
     ];
+    const routes = [
+        { id: 1, name: 'Inicio', path: '' },
+        { id: 2, name: 'Nuestro Agentes', path: '/agents' }
+    ];
     return (<>
         <Menubar model={items} className='dark:bg-slate-800 border-transparent' />
         <Sidebar visible={visible} onHide={() => setVisible(false)} className='text-white dark:bg-slate-800 border-transparent'>
+            <h2 className='text-slate-800 dark:text-white font-bold text-2xl mb-4'>Conoce acerca de...</h2>
+            <ul>
+                {routes.map((route) => (<li className='my-2'><Anchor to={route.path} key={route.id} className='text-slate-800 dark:text-white text-lg hover:text-red-600 ' onClick={() => setVisible(false)}>{route.name}</Anchor></li>))}
+            </ul>
+
+
         </Sidebar>
     </>);
 }
