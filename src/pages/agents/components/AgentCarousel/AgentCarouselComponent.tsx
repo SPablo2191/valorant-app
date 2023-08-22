@@ -14,11 +14,9 @@ export function AgentCarousel() {
                 setData(data.data);
             })
     }, []);
-    const itemTemplate = (item: Agent) => {
-        return (
-            <AgentCard agent={item} />
-        );
-    };
+    const itemTemplate = (item: Agent) => ((
+        <AgentCard agent={item} />
+    ));
     return (
         <div className="mb-4">
             <div>
