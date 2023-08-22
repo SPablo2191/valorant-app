@@ -1,5 +1,5 @@
-import { DataEvent } from "../models/event.interface";
 import { pathnameEnum } from "../project/interfaces/path.enum";
+import { DataEvent } from "../project/models/event.interface";
 const apiUrl : string = import.meta.env['VITE_API_URL']+pathnameEnum.events;
 
 export async function getEvents(): Promise<DataEvent> {

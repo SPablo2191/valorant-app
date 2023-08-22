@@ -1,5 +1,5 @@
+import { UiInputText } from "../../../../shared/components/ui/UiInputText/UiInputTextComponent";
 import { HomeTitle } from "../HomeTitle/HomeTitleComponent";
-import { UiInputText } from "../../../../shared/ui/UiInputText/UiInputTextComponent";
 export function HomeHeader(){
     return (
         <>

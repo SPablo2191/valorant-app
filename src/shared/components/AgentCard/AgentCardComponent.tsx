@@ -1,4 +1,5 @@
-import { Agent } from "../../models/agent.interface";
+import { Agent } from "../../../project/models/agent.interface";
+
 
 
 export function AgentCard({ agent }: { agent: Agent }) {

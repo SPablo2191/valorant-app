@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import { UiCarousel } from '../../../../shared/ui/UiCarousel/UiCarouselComponent';
-import { EventCard } from '../../../../shared/EventCard/EventCardComponent';
-import {  Event } from '../../../../models/event.interface';
 import { getEvents } from '../../../../services/EventService';
+import { Event } from '../../../../project/models/event.interface';
+import { EventCard } from '../../../../shared/components/EventCard/EventCardComponent';
+import { UiCarousel } from '../../../../shared/components/ui/UiCarousel/UiCarouselComponent';
 
 export function HomeCarousel() {
     const [data, setData] = useState<Event[]>([]);

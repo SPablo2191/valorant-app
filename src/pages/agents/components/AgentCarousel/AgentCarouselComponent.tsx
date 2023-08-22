@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import { UiCarousel } from '../../../../shared/ui/UiCarousel/UiCarouselComponent';
-import { Agent } from '../../../../models/agent.interface';
 import { getAgents } from '../../../../services/AgentService';
-import { AgentCard } from '../../../../shared/AgentCard/AgentCardComponent';
+import { Agent } from '../../../../project/models/agent.interface';
+import { AgentCard } from '../../../../shared/components/AgentCard/AgentCardComponent';
+import { UiCarousel } from '../../../../shared/components/ui/UiCarousel/UiCarouselComponent';
 
 
 export function AgentCarousel() {

@@ -1,4 +1,5 @@
-import { Event } from "../../models/event.interface";
+
+import { Event } from '../../../project/models/event.interface';
 import './EventCardStyle.css';
 
 export function EventCard({ event }: { event: Event }) {
