@@ -6,7 +6,7 @@ const apiUrl: string = import.meta.env.VITE_API_URL;
 
 export const useModelList = <Model>(
   endpoint: pathnameEnum,
-  params?: string
+  params: string = ""
 ) => {
   const [data, setData] = useState<Model[]>([]);
 
@@ -29,7 +29,6 @@ export const useModelList = <Model>(
 
   useEffect(() => {
     getData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return { data, setData, getData };
