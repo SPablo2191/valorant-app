@@ -1,6 +1,6 @@
-import { UiFooter } from "../../shared/ui/UiFooter/UiFooterComponent";
-import { UiNavbar } from "../../shared/ui/UiNavbar/UiNavBarComponent";
 import { Outlet } from "react-router-dom"
+import { UiNavbar } from "../../../shared/components/ui/UiNavbar/UiNavBarComponent";
+import { UiFooter } from "../../../shared/components/ui/UiFooter/UiFooterComponent";
 export function MainLayout() {
     return (
         <>

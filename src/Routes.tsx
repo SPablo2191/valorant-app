@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom'
 import { HomePage } from './pages/home/HomeComponent'
-import { MainLayout } from './layouts/MainLayout/MainLayoutComponent'
 import { AgentPage } from './pages/agents/AgentComponent'
 import { ErrorPage } from './pages/error/ErrorComponent';
+import { MainLayout } from './project/layouts/MainLayout/MainLayoutComponent';
 
 export const router = createBrowserRouter([
     {
