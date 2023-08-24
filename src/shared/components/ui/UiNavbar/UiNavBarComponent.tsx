@@ -7,6 +7,11 @@ import { Button } from "primereact/button";
 import { useNavigate } from "react-router-dom";
 
 export function UiNavbar() {
+  const navigate = useNavigate();
+  function navigateToLogin() {
+    navigate("/login");
+    setVisible(false);
+  }
   const [visible, setVisible] = useState(false);
   const items: MenuItem[] = [
     {
@@ -48,6 +53,7 @@ export function UiNavbar() {
         <Button
           label="Iniciar Sesión"
           className="mt-4 bg-red-500 border-0 hover:bg-red-600"
+          onClick={() => navigateToLogin()}
         />
       </Sidebar>
     </>
