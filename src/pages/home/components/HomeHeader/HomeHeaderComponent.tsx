@@ -4,7 +4,7 @@ export function HomeHeader() {
   return (
     <>
       <HomeTitle />
-      <UiInputText placeholder="Ingrese Nombre de Jugador" />
+      <UiInputText placeholder="Ingrese Nombre de Jugador" iconName="pi pi-search" />
     </>
   );
 }
