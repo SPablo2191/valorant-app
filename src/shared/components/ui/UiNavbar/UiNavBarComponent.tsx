@@ -3,6 +3,8 @@ import { Link as Anchor } from "react-router-dom";
 import { Menubar } from "primereact/menubar";
 import { MenuItem } from "primereact/menuitem";
 import { Sidebar } from "primereact/sidebar";
+import { Button } from "primereact/button";
+import { useNavigate } from "react-router-dom";
 
 export function UiNavbar() {
   const [visible, setVisible] = useState(false);
@@ -43,6 +45,10 @@ export function UiNavbar() {
             </li>
           ))}
         </ul>
+        <Button
+          label="Iniciar Sesión"
+          className="mt-4 bg-red-500 border-0 hover:bg-red-600"
+        />
       </Sidebar>
     </>
   );
